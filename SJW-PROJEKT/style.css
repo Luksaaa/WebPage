@@ -1,0 +1,330 @@
+﻿
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: #24252a;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 10%;
+  background-color: #18191c;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.navigacija a,
+.gumb,
+.banner,
+.lijeva,
+.desna,
+.srednja,
+.o-sobama,
+.o-sobama2,
+.footer,
+.soba-info-cat {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.navigacija {
+  list-style: none;
+  display: flex;
+}
+
+.navigacija li {
+  padding: 0px 20px;
+}
+
+.navigacija li a {
+  transition: color 0.3s ease 0s;
+}
+
+.navigacija li a:hover {
+  color: #0088a9;
+}
+
+.gumb {
+  padding: 9px 25px;
+  background-color: rgba(72, 117, 138, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+}
+
+.gumb:hover {
+  background-color: rgba(72, 117, 138, 0.8);
+}
+
+.banner {
+    background-image: url(images/banner.jpg);
+    height: 758px;
+    background-size: cover;
+    background-blend-mode: darken;
+    text-align: center;
+    color: white;
+    vertical-align:middle;
+    padding: 300px 0;
+    font-size: 60px;
+}
+
+.sobe img {
+
+height: 80%;
+width: 100%;
+
+}
+
+span {
+    font-size: 15px;
+}
+
+
+.sobe {
+    margin:0 auto;
+    width:73%;
+    height: 500px;
+    background-color: #24252a;
+ }
+
+.sobe-cat {
+  margin:0 auto;
+  width:73%;
+  height: 500px;
+  background-color: #24252a;
+}
+
+.sobe-cat img {
+
+height: 100%;
+width: 95%;
+
+	
+}
+
+.o-sobama {
+    padding-top: 30px;
+    color: #48758a;
+}
+
+.o-sobama2 {
+    padding-top: 30px;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.lijeva-cat {
+  float:left;
+  width:80%;
+  height: 430px;
+  background-color: white;
+  color: black
+  }
+  
+  .desna-cat {
+  float:right;
+  width:20%;
+  height: 430px;
+  background-color: white;
+  color: black
+  }
+
+.lijeva {
+float:left;
+width:30%;
+height: 580px;
+background-color: white;
+color: black
+}
+
+.desna {
+float:right;
+width:30%;
+height: 580px;
+background-color: white;
+color: black
+}
+
+.srednja {
+margin:auto;
+width:30%;
+height: 580px;
+background-color: white;
+color: black
+}
+
+.soba-info {
+margin-top: 15px;
+margin-left: 50px;
+line-height: 1.7;
+}
+
+.soba-info-cat {
+  margin-top: 50px;
+  line-height: 2.1;
+  color: black;
+  font-size: 2px;
+  }
+
+.ime-sobe {
+    font-size: 25px;
+}
+
+.ime-sobe-cat {
+  font-size: 25px;
+  flex
+}
+
+.cijena-cat {
+  font-size: 20px;
+}
+
+.sivo {
+    color: gray;
+}
+
+.cijena {
+    font-size: 20px;
+}
+
+.do-nas {
+    margin-top: 30px;
+    margin:0 auto;
+    width:73%;
+    height: 500px;
+    background-color: #24252a;
+}
+
+iframe {
+    margin-top: 15px;
+    margin-bottom: 30px
+}
+
+.kako-do-nas {
+    margin:0 auto;
+    width:73%;
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #18191c;
+  padding: 30px 0;
+}
+
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #48758a;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color:white;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color:white;
+	/*cursor: pointer;*/
+  
+}
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
