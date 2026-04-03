@@ -1,4 +1,7 @@
-# Boutique Hotel Postar - Official Website
+# Boutique Hotel Postar - High School Web Project 🎓
+
+> [!NOTE]
+> **Disclaimer**: This is **not an official website** for the hotel. It was created as a high school project for a web development assignment, where the task was to choose a local business and build a corresponding website.
 
 Welcome to the digital landing page for **Boutique Hotel Postar**, a premium, high-end accommodation experience located in Zadar, Croatia. This project highlights modern web development techniques and elegant user interface design tailored for the hospitality industry.
 
@@ -15,7 +18,7 @@ Key objectives of the site:
 ## ✨ Features
 - **Modern & Fully Responsive Design**: Every single element is optimized for desktops, tablets, and mobile phones.
 - **Intuitive Navigation**: Easy access to the Rooms, Catering, and Location sections.
-- **Room Showcase**: High-resolution imagery and pricing for Comfort, President, and Premium suites.
+- **Room Showcase**: High-resolution imagery and pricing for Comfort, Premium, and President suites.
 - **Interactive Map**: Built-in Google Maps iframe for real-time location tracking in Zadar.
 - **Catering Packages**: Clear breakdown of Premium, Medium, and Light catering tiers.
 - **Comprehensive Footer**: Quick links to company info, help center, and social media icons (Instagram, Twitter, Facebook, LinkedIn).
