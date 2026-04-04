@@ -36,3 +36,10 @@ To view the website locally:
 
 ---
 *Developed as part of the SJW-PROJEKT (Java and Web Systems Project).*
+
+
+## License
+
+This project is for personal use and educational purposes.
+
+© 2025 Luka Lukšić. All rights reserved.
